@@ -78,6 +78,58 @@
         </div>
     </div>
 
+    <div class="modal fade" id="popupModal" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Project Details</h5>
+            <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+            </div>
+            <div class="modal-body">
+                <h5>NYU Student Program Portals &amp; System Design</h5>
+                <p>I designed and implemented a system architecture to modernize the department’s manual administrative workflows, transitioning them from fragmented spreadsheets to a centralized, automated digital ecosystem.</p>
+                <ul>
+                    <li>
+                    <strong>Problem:</strong> The department relied on manual spreadsheet entry via Airtable for student hiring and program management. This created significant bottlenecks and lacked real-time transparency for applicants.
+                    </li>
+                    <li>
+                    <strong>Solution:</strong> I developed a UI-driven portal architecture using Airtable as a relational backend. The system integrates automation logic to trigger email notifications, calendar invites, and document generation (contracts and work authorizations) based on real-time application status.
+                    </li>
+                    <li>
+                    <strong>Outcome:</strong> While this UI was originally prototyped for student hiring, the system design was adopted as the foundational backend for the department’s global and research programs. It successfully scaled to support <strong>1,000+ students</strong>, streamlining their application journeys and enhancing the overall student experience.
+                    </li>
+                </ul>
+                <hr>
+                <h5>Key Contributions</h5>
+                <ul>
+                    <li>
+                    <strong>Operational Automation:</strong> Automated the entire application and document creation lifecycle, significantly reducing manual administrative overhead.
+                    </li>
+                    <li>
+                    <strong>Enterprise-Grade Security:</strong> Implemented access management and cybersecurity policies, ensuring all portals are protected by <strong>2FA via NYU email</strong>.
+                    </li>
+                    <li>
+                    <strong>Scalable Architecture:</strong> Built a modular system that allowed the department to deploy unique portals across different programs while maintaining a unified, secure database structure.
+                    </li>
+                </ul>
+                <hr>
+                <h5>Portals</h5>
+                <p><strong>Note</strong>: Log-in required. These are provided for reference only.</p>
+                <ul>
+                    <li><a href="https://web.miniextensions.com/GZf0FTc48rxagMMsc5XO" target="_blank">Tandon Global (Study Abroad Program)</a></li>
+                    <li><a href="https://web.miniextensions.com/xerdmAL2D0ibD9FJW7u0" target="_blank">Tandon UGSRP (Summer Research Program)</a></li>
+                    <li><a href="https://web.miniextensions.com/d8km1Aqewp7MQ9qe0tjt" target="_blank">Tandon Prehealth (Prehealth Track Program)</a></li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" id="closePopup" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+   
+
     <!-- Footer -->
     <footer class="footer">
         <p>&copy; 2024 Raffy Orbe. MASY1-GC 1240-106</p>
@@ -87,5 +139,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts/introduction.js"></script>
 </body>
 </html>
